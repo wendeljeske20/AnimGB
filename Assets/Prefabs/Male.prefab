@@ -923,6 +923,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skinnedMeshRenderer: {fileID: 8732148358937096064}
   mesh: {fileID: -1304802376897578106, guid: 9b86e0255bd4d814686e3e09cf612530, type: 3}
+  moveSpeed: 0
+  rotationSpeed: 0
 --- !u!1 &991833487832792192
 GameObject:
   m_ObjectHideFlags: 0
