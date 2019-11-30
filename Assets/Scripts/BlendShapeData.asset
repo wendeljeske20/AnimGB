@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f639cf5cbce09dc4abae7d21cdb1fe28, type: 3}
+  m_Name: BlendShapeData
+  m_EditorClassIdentifier: 
+  blendShapeItems:
+  - displayText: Comprimento dos Ombros
+    name: SCLShldrsWidth
+  - displayText: Comprimento do Torso
+    name: SCLTorsoLength
+  - displayText: Escala dos Ombros
+    name: SCLShldrsScale
+  - displayText: "Comprimento do Pesco\xE7o"
+    name: SCLNeckLength
+  - displayText: "Comprimento dos Bra\xE7os"
+    name: SCLArmsLength
+  - displayText: Fitness
+    name: CTRLFitness
+  - displayText: Peso
+    name: CTRLWeight
+  - displayText: Tamanho dos ossos
+    name: FBMLithe
+  - displayText: Body Builder
+    name: CTRLBodybuilder
