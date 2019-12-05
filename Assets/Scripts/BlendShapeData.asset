@@ -29,5 +29,5 @@ MonoBehaviour:
     name: CTRLWeight
   - displayText: Tamanho dos ossos
     name: FBMLithe
-  - displayText: Body Builder
+  - displayText: Musculatura
     name: CTRLBodybuilder

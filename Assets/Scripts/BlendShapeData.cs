@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = "BlendShapeData", menuName = "BlendShapeData")]
 public class BlendShapeData : ScriptableObject

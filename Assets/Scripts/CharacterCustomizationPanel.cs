@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class CharacterCustomizationPanel : MonoBehaviour
@@ -15,22 +13,18 @@ public class CharacterCustomizationPanel : MonoBehaviour
 		{
 			BlendShapeItem blendShapeItem = blendShapeData.blendShapeItems[i];
 
-			Slider slider = content.GetChild(i).GetChild(1).GetComponent<Slider>();
-
 			Text blendShapeItemText = content.GetChild(i).GetChild(0).GetComponent<Text>();
 			blendShapeItemText.text = blendShapeItem.displayText;
 
-			
+			Slider slider = content.GetChild(i).GetChild(1).GetComponent<Slider>();
 
 			slider.onValueChanged.AddListener(value => ChangeBlendshapeValue(blendShapeItem.name, value));
-
 		}
 	}
 
 	private void ChangeBlendshapeValue(string name, float value)
 	{
 		int index = body.mesh.GetBlendShapeIndex(name);
-		Debug.Log(index);
 		body.skinnedMeshRenderer.SetBlendShapeWeight(index, value * 100);
 	}
 }
